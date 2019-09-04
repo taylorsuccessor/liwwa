@@ -5,7 +5,7 @@
       <paths name="ureed_staging_3.122.208.22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/ubuntu/django/liwwa" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/ubuntu/django/final_liwwa" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
