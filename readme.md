@@ -1,3 +1,12 @@
+# S3
+this app upload to s3
+just create s3 :
+- 1- set S3 settings in liwwa/settings line 167
+- 2- to download the file you should request post (api/download_resume/) with (id  of resume,X-ADMIN =1 header)
+- 3- download from S3 is by creating unique link with secret key and expired after period of time.
+- 4- progress bar will be appear when uploading file.
+
+
 # Vue js
 - 1- cd to liwwa_vue
 - 2- install npm
