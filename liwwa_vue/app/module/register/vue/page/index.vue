@@ -10,6 +10,7 @@
 
 
 
+<router-link to="/vue/register/create/" class="btn btn-primary form-control"> Register new Candidate  </router-link>
 
     <div class="limiter">
         <div class="container-table100">

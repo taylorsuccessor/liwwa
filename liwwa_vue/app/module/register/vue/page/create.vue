@@ -1,6 +1,6 @@
 <template>
     <div>
-
+<router-link to="/vue/register/" class="btn btn-primary form-control"> Resume List </router-link>
         <div class="testbox" style="width:50%; margin:0px 25%;">
             <form v-on:submit.prevent="submit">
 
