@@ -32,3 +32,9 @@ ${your_nginx_server}/index.html?full_name=smxks#/vue/register/
 - 5- add your host to ALLOWED_HOSTS and CORS_ORIGIN_WHITELIST
 - 6- in liwwa_vue/.env change  MIX_API_URL to your api server
 - 7- run server using WSGI or development mode >> ~/.pyenv/versions/3.5.0/bin/python  ~/django/liwwa/manage.py runserver 0.0.0.0:9000
+
+# Django admin
+
+- 1- go to admin page http://3.122.208.22:9000/admin/
+- 2- user email: taylorsuccessor@gmail.com
+- 3- password: 123456

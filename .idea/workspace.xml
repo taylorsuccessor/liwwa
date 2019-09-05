@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c613fd-1a9c-4f47-897c-dafaaa2c5ce6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/authorization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/dataSources/30b97d13-6bda-43f3-857c-eebf9399f0fb.xml" beforeDir="false" />
@@ -14,6 +20,211 @@
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/api_token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/password_reset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/password_reset_confirm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/templates/simple_password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/templates/simple_password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/authorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/middleware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/app_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/auth/user/add_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/auth/user/change_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/change_list_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/delete_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/delete_selected_confirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/edit_inline/stacked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/edit_inline/tabular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/includes/fieldset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/includes/object_delete_summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/invalid_setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/object_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/popup_response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/prepopulated_fields_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/clearable_file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/foreign_key_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/many_to_many_raw_id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/split_datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/admin/widgets/url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/admin/templates/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/boundfield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/extras/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/extras/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/formsets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/attrs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/checkbox_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/checkbox_select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/clearable_file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/hidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/input_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/multiple_hidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/multiple_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/multiwidget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/radio_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/select_date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/select_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/splitdatetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/splithiddendatetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/jinja2/django/forms/widgets/url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/renderers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/attrs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/attrs_with_class_form-control.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/checkbox_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/checkbox_select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/clearable_file_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/hidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/input_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/multiple_hidden.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/multiple_input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/multiwidget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/radio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/radio_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/select_date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/select_option.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/splitdatetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/splithiddendatetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/templates/django/forms/widgets/url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/forms/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/base_public.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/base_site.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/change_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/change_list_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/custom_field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/date_hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/form/textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/includes/fieldset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/includes/object_delete_summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/partial/client_pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/partial/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/partial/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/partial/messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/partial/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/search_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/submit_line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templates/custom_admin/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/admin_date_hierarchy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/admin_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/admin_header.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/admin_menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/admin_pagination.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/client_pagination.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/templatetags/helper_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/installation.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/templates/custom_field.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/custom_field.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_car/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/banner-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/banner-img_IlWWrge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/logo-homepage-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/logo-homepage-1_oQ3Umam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0002_myuser_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializer.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../venv/bin/activate" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../venv/bin/activate.csh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../venv/bin/activate.fish" beforeDir="false" />
@@ -8392,11 +8603,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/create.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liwwa_vue/resources/assets/js/vue/layout/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="173" column="41" selection-start-line="173" selection-start-column="41" selection-end-line="173" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;6880e522-b6b7-4629-a92c-459919c784e8&gt;/etc/systemd/system/jareerDjango.service">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installation.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="435">
+                <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -8404,38 +8647,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/create.vue">
+        <entry file="file://$PROJECT_DIR$/liwwa_vue/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liwwa_vue/resources/assets/js/vue/api/ApiBase.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liwwa/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627">
-              <caret line="104" selection-start-line="104" selection-start-column="2" selection-end-line="113" selection-end-column="3" />
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -8446,6 +8661,8 @@
     <findStrings>
       <find>3.6</find>
       <find>MyCar</find>
+      <find>1px solid #ccc</find>
+      <find>#ccc</find>
     </findStrings>
     <replaceStrings>
       <replace>3.5</replace>
@@ -8478,9 +8695,10 @@
         <option value="$PROJECT_DIR$/liwwa/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/installation.sh" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/create.vue" />
         <option value="$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/index.vue" />
+        <option value="$PROJECT_DIR$/liwwa_vue/resources/assets/js/vue/layout/index.ejs" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -8592,6 +8810,16 @@
               <item name="vue" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="api" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="liwwa_vue" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vue" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="layout" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -8600,7 +8828,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -8663,12 +8891,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567436295928</updated>
-      <workItem from="1567436297087" duration="33440000" />
+      <workItem from="1567436297087" duration="34689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33440000" />
+    <option name="totallyTimeSpent" value="34689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -8691,7 +8919,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" weight="0.3297568" />
+      <window_info anchor="right" id="Remote Host" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -8868,20 +9096,6 @@
     <entry file="file://$PROJECT_DIR$/liwwa_vue/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/liwwa_vue/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/installation.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liwwa/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-627">
@@ -8892,30 +9106,51 @@
     <entry file="file://$PROJECT_DIR$/liwwa_vue/resources/assets/js/vue/api/ApiBase.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/create.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liwwa_vue/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liwwa_vue/app/module/register/vue/page/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liwwa_vue/resources/assets/js/vue/layout/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="173" column="41" selection-start-line="173" selection-start-column="41" selection-end-line="173" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installation.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
